@@ -1,5 +1,5 @@
 {
-  description = ''A collection of reusable modules and wrappers.'';
+  description = ''Assorted wrappers and reusable libraries.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-fowltek-master.flake = false;
   inputs.src-fowltek-master.owner = "fowlmouth";
-  inputs.src-fowltek-master.ref   = "refs/heads/master";
+  inputs.src-fowltek-master.ref   = "master";
   inputs.src-fowltek-master.repo  = "nimlibs";
   inputs.src-fowltek-master.type  = "github";
   
