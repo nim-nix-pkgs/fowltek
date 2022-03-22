@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-fowltek-master.flake = false;
+  inputs.src-fowltek-master.ref   = "refs/heads/master";
   inputs.src-fowltek-master.owner = "fowlmouth";
-  inputs.src-fowltek-master.ref   = "master";
   inputs.src-fowltek-master.repo  = "nimlibs";
   inputs.src-fowltek-master.type  = "github";
   
