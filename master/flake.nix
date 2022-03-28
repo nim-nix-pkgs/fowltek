@@ -11,7 +11,6 @@
   inputs.src-fowltek-master.ref   = "refs/heads/master";
   inputs.src-fowltek-master.owner = "fowlmouth";
   inputs.src-fowltek-master.repo  = "nimlibs";
-  inputs.src-fowltek-master.dir   = "";
   inputs.src-fowltek-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
