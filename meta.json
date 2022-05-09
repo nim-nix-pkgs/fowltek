@@ -7,37 +7,8 @@
   "license": "MIT",
   "web": "https://github.com/fowlmouth/nimlibs",
   "refs": [
-    "refs/heads/master",
+    "fatal: unable to access 'https://github.com/fowlmouth/nimlibs/': Could not resolve host: github.com",
     ""
   ],
-  "heads": [
-    {
-      "name": "fowltek",
-      "version": "0.9.3",
-      "author": "fowl",
-      "desc": "Assorted wrappers and reusable libraries.",
-      "license": "MIT",
-      "skipDirs": [],
-      "skipFiles": [],
-      "skipExt": [],
-      "installDirs": [],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nim",
-          "str": ">= 0.9.3",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "0.9.3"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": "",
-      "backend": "c",
-      "ref": "refs/heads/master"
-    }
-  ]
+  "heads": []
 }
